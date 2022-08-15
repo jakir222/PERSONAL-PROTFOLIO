@@ -8,6 +8,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -20,9 +21,20 @@ section {
 .half-width img {
     width: 100%;
 
+
 }
 
 .half-width p {
     width: 90%;
     text-align: justify;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(233, 171, 58), rgb(151, 37, 17));
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+    font-weight: 700;
+
 }
