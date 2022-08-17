@@ -1,13 +1,20 @@
 body {
     width: 100%;
+    background-color: blue;
+
+
 }
 
-h1 {
+b h1 {
     font-size: 50px;
 }
 
 .part {
-    color: orange;
+    color: aqua;
+}
+
+.world h2 {
+    font-size: 40px;
 }
 
 .flaxiable-container {
@@ -26,8 +33,10 @@ h1 {
     width: 110%;
     border-radius: 70%;
 
+}
 
-
+.first image {
+    margin-top: 70px;
 }
 
 .half-width p {
@@ -42,5 +51,39 @@ h1 {
     color: white;
     border-radius: 3px;
     font-weight: 700;
+}
 
+.exprience {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    box-shadow: 10px 10px 40px gray;
+
+
+}
+
+#Full-Stack-Developwe {
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+
+}
+
+#Baby-web-Developer {
+    border-left: 7px;
+    border-image: linear-gradient(rgb(22, 148, 62), rgb(16, 3, 93));
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(233, 171, 58), rgb(151, 37, 17));
+    padding: 5px 10px;
+    color: white;
+    border-radius: 3px;
+    font-weight: 700;
+    width: 40;
 }
