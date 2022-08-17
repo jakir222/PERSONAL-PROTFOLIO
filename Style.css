@@ -1,8 +1,6 @@
 body {
     width: 100%;
-    background-color: blue;
-
-
+    background-color: rgb(92, 109, 104);
 }
 
 b h1 {
@@ -19,7 +17,7 @@ b h1 {
 
 .flaxiable-container {
     display: flex;
-    margin-bottom: 120px;
+    margin-bottom: 50px;
 }
 
 .half-width {
@@ -67,6 +65,7 @@ b h1 {
     border-left: 7px solid;
     border-image: linear-gradient(blue, cyan);
     border-image-slice: 1;
+    background-color: azure;
 
 }
 
@@ -74,7 +73,7 @@ b h1 {
     border-left: 7px;
     border-image: linear-gradient(rgb(22, 148, 62), rgb(16, 3, 93));
     border-image-slice: 1;
-
+    background-color: azure
 }
 
 footer p {
