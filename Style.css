@@ -1,7 +1,32 @@
 body {
     width: 100%;
-    background-color: rgb(92, 109, 104);
+    margin: 0;
 }
+
+.top-image {
+    background-image: url(Images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.contract {
+    width: 120;
+    height: 200px;
+    background-color: aliceblue;
+    background-image: linear-gradient(rgb(56, 162, 157), rgb(162, 145, 189))
+}
+
+
+button {
+    margin-left: 80%;
+}
+
+h1 {
+
+    text: center;
+    text-indent: 12px;
+
+}
+
 
 b h1 {
     font-size: 50px;
@@ -17,29 +42,39 @@ b h1 {
 
 .flaxiable-container {
     display: flex;
-    margin-bottom: 50px;
 }
 
 .half-width {
-    width: 40%;
+    margin-top: 70px;
+    width: 50%;
     padding-left: 2%;
     padding-right: 5%;
-
 }
 
 .half-width img {
-    width: 110%;
-    border-radius: 70%;
 
+    width: 100%;
+}
+
+.radius {
+    border-radius: 50px;
+}
+
+.Dream-big {
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .first image {
-    margin-top: 70px;
+    margin-top: 0px;
+
 }
 
 .half-width p {
     width: 90%;
     text-align: justify;
+    color: rgb(9, 9, 2);
 }
 
 .link-button {
@@ -57,8 +92,13 @@ b h1 {
     margin-right: 5%;
     padding: 10px;
     box-shadow: 10px 10px 40px gray;
+}
 
-
+.Developer img {
+    background-image: url(Images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    font-size: small;
 }
 
 #Full-Stack-Developwe {
@@ -77,6 +117,7 @@ b h1 {
 }
 
 footer p {
+    margin-top: 10px;
     text-align: center;
     text-decoration: none;
     background-image: linear-gradient(rgb(233, 171, 58), rgb(151, 37, 17));
@@ -85,4 +126,5 @@ footer p {
     border-radius: 3px;
     font-weight: 700;
     width: 40;
+
 }
